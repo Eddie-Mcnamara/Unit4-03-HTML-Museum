@@ -1,12 +1,12 @@
 // Copyright (c) 2022 Edward Mcnamara All rights reserved
 //
 // Created by: Edward Mcnamara
-// Created on: March 2022
+// Created on: May 2022
 // This file contains the JS functions for index.html
 
 'use strict';
 /**
- * This function calculates which rating of movie the user is allowed to watch based on their age 
+ * This function checks which disscocuts the user is eligible for based on their age and the day of the week 
  */ 
 function check() {
   // Getting age from user
