@@ -16,7 +16,7 @@ function check() {
   let result;
 
   // First, if the age the user entered is negative, then display "You have entered an invalid age, please try again."
- if (age < 0) {
+ if (age < 0 || age > 120) {
   result = "You have entered an invalid age, please try again."
    // Otherwise, if the user's age is less than or equal to 5, OR if the user's age is greater than or eqaul to 95, then display the message below
  } else if (age <= 5 || age >= 95 ) {

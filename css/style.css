@@ -23,3 +23,10 @@ div {
   color: #740202;
   
 }
+
+.mdl-layout__header-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
